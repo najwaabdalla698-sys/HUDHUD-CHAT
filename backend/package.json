@@ -13,9 +13,13 @@
   "license": "ISC",
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@clerk/express": "^1.7.4",
 =======
 >>>>>>> 949353a (initial commit)
+=======
+    "@clerk/express": "^1.7.4",
+>>>>>>> d40ab2c (db connected & env.js completed)
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
