@@ -1,14 +1,14 @@
 import express from "express";
 import { ENV } from "./config/env.js";
-import { connectDB } from "./config/db.js";
+import { connectDB } from "./config/DB.js";
 
 const app = express();
 
 app.get("/", (req, res) => {
-   res.send("Hello World! 123");
+  res.send("Hello World! 🚀 Backend is running!");
 });
 
 app.listen(ENV.PORT, () => {
-      console.log("Server started on port:", ENV.PORT);
-      connectDB();
+  console.log("✅ Server started on port:", ENV.PORT);
+  connectDB();
 });
